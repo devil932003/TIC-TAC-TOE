@@ -1,0 +1,9 @@
+:root{
+  --yellow:#0aed0e;
+  box-shadow: yellow;
+}
+
+body{
+  background-image: linear-gradient(black,grey);
+
+}

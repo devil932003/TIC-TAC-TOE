@@ -1,0 +1,44 @@
+.grid-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid{
+    height:500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.turn-highlighter{
+ color:aliceblue;
+}
+
+.reset {
+    background-color: #ff4d4d; /* Red color for reset action */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset:hover {
+    background-color: #cc0000; /* Darker red on hover */
+  }
+  
+  .reset:active {
+    background-color: #a30000; /* Even darker red when clicked */
+  }
+  
+  .reset:disabled {
+    background-color: #ffb3b3; /* Light red when disabled */
+    cursor: not-allowed;
+  }
+  
